@@ -1,0 +1,100 @@
+.navbar{
+    border-radius: 5px;
+    background-color: rgba(212, 211, 211, 0.637);
+}
+.nav-link{
+    font-size:700;
+}
+.container{
+    margin-top: 50px;
+}
+.top-banner{
+    background-image: url(elements/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.carousel-indicators li{
+    background-color: darkgray;
+    border:none;
+    border-radius: 5px;
+    height:8px;
+    width:10px;
+}
+.carousel-indicators li.active {
+    width: 30px;
+    height: 8px;
+    border:none;
+    border-radius: 5px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%)
+}
+.appointment-btn{
+    float:right;
+}
+
+.price{
+    color:orange;
+    padding-bottom: 10px;
+}
+.container{
+    margin-bottom: 100px;
+}
+.d-flex{
+    padding-bottom: 50px;
+}
+.card{
+    border:none;
+    box-shadow: 0px 0px 20px rgba(212, 211, 211, 0.637);
+    border-radius: 10px;
+    text-align: center;
+}
+.card-footer{
+    border:none;
+    background-color: white;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+#see-all{
+    color:orange;
+    font-weight: 700;
+}
+
+.content-title {
+    font-size: 35px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 70px;
+    padding-bottom: 18px;
+}
+.content-title:after{
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 135px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cat-perfume, .cat-shoe{
+    margin-bottom: 50px;
+}
+
+.gray-bg {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding-top: 30px;
+}
+
+.footer{
+    color:white;
+    text-align: center;
+    padding:20px;
+    background-color: rgb(105, 105, 105);
+
+}
