@@ -1,9 +1,10 @@
 .navbar{
     border-radius: 5px;
-    background-color: rgba(212, 211, 211, 0.637);
+    background-color: #002366;
 }
 .nav-link{
     font-size:700;
+    color:#fff !important;
 }
 .container{
     margin-top: 50px;
@@ -37,7 +38,8 @@
     padding-bottom: 10px;
 }
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+    margin-top:150px;
 }
 .d-flex{
     padding-bottom: 50px;
@@ -97,4 +99,37 @@ img {
     padding:20px;
     background-color: rgb(105, 105, 105);
 
+}
+.experience{
+    height:250px;
+    width:30%;
+    color:#000;
+    background-color: lightsalmon;
+    display: inline-block;
+    float:left;
+    margin-left:3%;
+    border-radius: 8px;
+    padding-top:30px;
+    margin-bottom: 15px;
+}
+
+.copyright{
+    text-decoration:none;
+    color:#fff;
+    font-weight: 700;
+
+}
+.copyright:hover{
+    text-decoration:none;
+    color:#fff;
+    font-weight: 700;
+}
+.chamber-logo{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+}
+
+.exp-card{
+    background-color: lightsalmon;
 }
