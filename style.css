@@ -125,11 +125,37 @@ img {
     font-weight: 700;
 }
 .chamber-logo{
-    height:80px;
-    width:80px;
+    height:160px;
+    width:160px;
     border-radius: 50%;
+    text-align: center;
 }
+
 
 .exp-card{
     background-color: lightsalmon;
+}
+
+.text-success:hover{
+    color:white !important;
+}
+
+.social-link{
+    height:30px;
+    width:30px;
+    margin-left: 20px;
+}
+.social-link:hover{
+    margin-left: 20px;
+    opacity: 0.8;
+}
+.contact{
+    text-decoration: none;
+    color:rgba(0, 162, 255, 0.753);
+    font-weight: 700;
+}
+.contact:hover{
+    text-decoration: none;
+    color:rgba(0, 119, 255, 0.753);
+    font-weight: 700;
 }
